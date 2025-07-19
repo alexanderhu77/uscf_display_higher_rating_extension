@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "US Chess Rating Search Enhancer",
+  "version": "1.0",
+  "description": "Shows the higher of official and unofficial ratings on the US Chess player search page.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "https://new.uschess.org/*",
+    "https://www.uschess.org/*"
+  ],
+  "host_permissions": [
+    "https://new.uschess.org/civicrm/player-search*",
+    "https://www.uschess.org/msa/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://new.uschess.org/civicrm/player-search*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "US Chess Rating Search Enhancer"
+  }
+}
