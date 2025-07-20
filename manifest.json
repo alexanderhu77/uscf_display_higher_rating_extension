@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "US Chess Rating Search Enhancer",
+  "name": "US Chess Higher Rating Displayer",
   "version": "1.0",
   "description": "Shows the higher of official and unofficial ratings on the US Chess player search page.",
   "permissions": [
@@ -23,6 +23,6 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "US Chess Rating Search Enhancer"
+    "default_title": "US Chess Higher Rating Displayer"
   }
 }
