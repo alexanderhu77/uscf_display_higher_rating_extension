@@ -5,9 +5,7 @@
   "description": "Shows the higher of official and unofficial ratings on the US Chess player search page.",
   "permissions": [
     "scripting",
-    "activeTab",
-    "https://new.uschess.org/*",
-    "https://www.uschess.org/*"
+    "activeTab"
   ],
   "host_permissions": [
     "https://new.uschess.org/civicrm/player-search*",
