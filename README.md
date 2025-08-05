@@ -12,7 +12,9 @@ US Chess generates a list of official ratings every third Wednesday of each mont
 
 ## How to Use
 
-- Load the extension in Chrome 
-- Go to https://new.uschess.org/civicrm/player-search.
-- Search for a player (e.g., by Member ID).
-- Click "Click to Load" in the "High Rating" column to see the highest rating.
+1. Load the extension in Chrome
+    - Open Google Chrome and navigate to `chrome://extensions/`.
+    - Click "Load unpacked" and select the folder containing the extension files
+2. Go to https://new.uschess.org/civicrm/player-search.
+3. Search for a player (e.g., by Member ID).
+4. Click "Click to Load" in the "High Rating" column to see the highest rating.
